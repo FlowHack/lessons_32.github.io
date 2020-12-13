@@ -17,7 +17,7 @@ main {
 
 a {
   color: #000 !important;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .none {
@@ -80,7 +80,7 @@ a {
   width: 100%;
   text-align: center;
   background-color: rgb(52, 58, 64);
-  height : 4em;
+  height: 4em;
 }
 
 .footer-title {

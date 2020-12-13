@@ -4,7 +4,7 @@ $(document).ready(function () {
       $("#intramural_block").show("slow");
       $("#in_absentia_block").hide("slow");
       $(this).toggleClass("active");
-      $("#in_absentia").removeClass("active")
+      $("#in_absentia").removeClass("active");
     }
     return false;
   });
@@ -13,7 +13,7 @@ $(document).ready(function () {
       $("#in_absentia_block").show("slow");
       $("#intramural_block").hide("slow");
       $(this).toggleClass("active");
-      $("#intramural").removeClass("active")
+      $("#intramural").removeClass("active");
     }
     return false;
   });
