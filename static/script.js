@@ -50,4 +50,38 @@ $(document).ready(function () {
     }
     return false;
   });
+  $("#11Б_удал").click(function () {
+    if ($("#11Б_block_удал").is(":hidden")) {
+      $("#11Б_block_удал").show("slow");
+      $("#11Г_block_удал").hide("slow");
+      $("#shedule_calls_block_удал").hide("slow");
+      $(this).toggleClass("active");
+      $("#11Г_удал").removeClass("active");
+      $("#shedule_calls_удал").removeClass("active");
+    }
+    return false;
+  });
+  $("#11Г_удал").click(function () {
+    if ($("#11Г_block_удал").is(":hidden")) {
+      $("#11Г_block_удал").show("slow");
+      $("#11Б_block_удал").hide("slow");
+      $("#shedule_calls_block_удал").hide("slow");
+      $(this).toggleClass("active");
+      $("#11Б_удал").removeClass("active");
+      $("#shedule_calls_удал").removeClass("active");
+    }
+    return false;
+  });
+  $("#shedule_calls_удал").click(function () {
+    if ($("#shedule_calls_block_удал").is(":hidden")) {
+      $("#shedule_calls_block_удал").show("slow");
+      $("#11Б_block_удал").hide("slow");
+      $("#11Г_block_удал").hide("slow");
+      $(this).toggleClass("active");
+      $("#11Г_удал").removeClass("active");
+      $("#11Б_удал").removeClass("active");
+    }
+    return false;
+  });
+
 });
